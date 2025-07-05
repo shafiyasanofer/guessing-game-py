@@ -2,7 +2,8 @@ import random
 
 def play_game():
     name = input("Enter your name: ")
-    number_to_guess = random.randint(1, 100)
+    # increased random number generation to make the game harder
+    number_to_guess = random.randint(1, 1000)
     attempts = 0
     print("I'm thinking of a number between 1 and 100.")
 
